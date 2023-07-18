@@ -3,6 +3,45 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{THC23,
+  title={On reliable computation over larger alphabets},
+  abstract={We present two new positive results for reliable computation using formulas over physical alphabets of size q>2. First, we show that for logical alphabets of size ℓ=q the threshold for denoising using gates subject to q-ary symmetric noise with error probability ϵ is strictly larger that possible for Boolean computation and we demonstrate a clone of q-ary functions that can be reliably computed up to this threshold. Secondly, we provide an example where ℓ<q, showing that reliable Boolean computation can be performed using 2-input ternary logic gates subject to symmetric ternary noise of strength ϵ<1/6 by using the additional alphabet element for error signalling.},
+  author={Tan, Andrew K and Ho, Matthew and Chuang, Isaac L},
+  journal={arXiv preprint arXiv:2306.13262},
+  year={2023},
+  url={https://arxiv.org/abs/2306.13262},
+  pdf={https://arxiv.org/pdf/2306.13262.pdf},
+  preview={thc23.png},
+  selected=False,
+}
+
+@article{TLTC23a,
+  title={Perturbative model of noisy quantum signal processing},
+  abstract={Recent progress in quantum signal processing (QSP) and its generalization, quantum singular value transformation, has led to a grand unification of quantum algorithms. However, inherent experimental noise in quantum devices severely limits the length of realizable QSP sequences. We consider a model of QSP with generic perturbative noise in the signal processing basis and present a diagrammatic notation useful for analyzing such errors. To demonstrate our technique, we study a specific coherent error, that of under- or overrotation of the signal processing operator parametrized by \(\epsilon \ll 1\). For this coherent error model, it is shown that while Pauli Z errors are not recoverable without additional resources, Pauli X and Y errors can be arbitrarily suppressed by coherently appending a noisy recovery QSP without the use of additional resources or ancillas. Furthermore, through a careful accounting of errors using our diagrammatic tools, we provide an upper and lower bound on the length of this recovery QSP operator. We anticipate that the perturbative technique and the diagrammatic notation proposed here will facilitate future study of generic noise in QSP and quantum algorithms.},
+  author={Tan, Andrew K and Liu, Yuan and Tran, Minh C and Chuang, Isaac L},
+  journal={Physical Review A},
+  volume={107},
+  number={4},
+  pages={042429},
+  year={2023},
+  url={https://journals.aps.org/pra/abstract/10.1103/PhysRevA.107.042429},
+  publisher={APS},
+  preview={tltc23a.png},
+  selected=True,
+}
+
+@article{TLTC23b,
+  title={Error correction of quantum algorithms: Arbitrarily Accurate Recovery Of Noisy Quantum Signal Processing},
+  abstract={The intrinsic probabilistic nature of quantum systems makes error correction or mitigation indispensable for quantum computation.  While current error-correcting strategies focus on correcting errors in quantum states or quantum gates, these fine-grained error-correction methods can incur significant overhead for quantum algorithms of increasing complexity. By studying systematic errors in the modern unifying framework of quantum signal processing (QSP), we present a first step in achieving quantum error correction beyond the gate level. The technique of using device and error model specific knowledge to orchestrate the cancellation of errors at the level of the quantum subroutine can be used to augment standard quantum error correction in pursuit of fault-tolerance quantum computation.},
+  author={Tan, Andrew K and Liu, Yuan and Tran, Minh C and Chuang, Isaac L},
+  journal={Submitted to npj Quantum Information},
+  year={2023},
+  url={https://arxiv.org/abs/2301.08542},
+  pdf={https://arxiv.org/pdf/2301.08542.pdf},
+  preview={tltc23b.png},
+  selected=True,
+}
+
 @article{TTC22,
   title={Pareto-optimal clustering with the primal deterministic information bottleneck},
   abstract={At the heart of both lossy compression and clustering is a trade-off between the fidelity and size of the learned representation. Our goal is to map out and study the Pareto frontier that quantifies this trade-off. We focus on the Deterministic Information Bottleneck (DIB) formulation of lossy compression, which can be interpreted as a clustering problem. To this end, we introduce the {\it primal} DIB problem, which we show results in a much richer frontier than its previously studied dual counterpart. We present an algorithm for mapping out the Pareto frontier of the primal DIB trade-off that is also applicable to most other two-objective clustering problems. We study general properties of the Pareto frontier, and give both analytic and numerical evidence for logarithmic sparsity of the frontier in general. We provide evidence that our algorithm has polynomial scaling despite the super-exponential search space; and additionally propose a modification to the algorithm that can be used where sampling noise is expected to be significant. Finally, we use our algorithm to map the DIB frontier of three different tasks: compressing the English alphabet, extracting informative color classes from natural images, and compressing a group theory inspired dataset, revealing interesting features of frontier, and demonstrating how the structure of the frontier can be used for model selection with a focus on points previously hidden by the cloak of the convex hull.},
@@ -16,7 +55,7 @@
   url={https://www.mdpi.com/1099-4300/24/6/771},
   pdf={https://arxiv.org/pdf/2204.02489.pdf},
   preview={ttc22.png},
-  selected=True
+  selected=True,
 }
 
 @article{ZTMT22,
